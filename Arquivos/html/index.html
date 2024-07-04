@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css">
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .content-1 {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .doc {
+            border-collapse: collapse;
+            border: solid 2px #000;
+        }
+
+        .cabecalho,
+        .corpotd {
+            padding: 6px;
+            border-right: solid 2px #000;
+        }
+
+        .cabecalho {
+            font-weight: 500;
+        }
+
+        .corpotd {
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+    <div class="conteudo-principal" style="width: 1000px;">
+
+        <div class="header-logos" style="align-items: center; width: 100%; height: 80px; border-radius: 4px;">
+            <table class="head-box" style="width:100%;margin:0;display:inline-table;background: #7a206c;"
+                cellpadding="0" ;="" cellspacing="0">
+                <tbody>
+                    <tr>
+                        <td style="text-align: center;width: 10%;">
+                            <img src="https://lh3.googleusercontent.com/pw/AP1GczO_C-evsmYtzVafrOOe45vT-dvykJuV_8fQBtLjX1fX1VnDtt87mRyJCnzsgshtbJO3ypvnr5CIrpmXb62uIDiOHfKfPALCc_BpuxnAB9U942lxATdglHcqVwkWSk3wDt7SBzfztvqQ6HUSsojfndFI=w702-h281-s-no-gm?authuser=0"
+                                width="80px" height="50px"; alt="logo-jequiti">
+                    </td>
+                        <td style="width: 70%; text-align: center;">
+                            <p
+                                style="color: #2cb8cd; font-weight: 600; font-family: Arial, Helvetica, sans-serif;font-size: 20pt; padding-left: 15px">
+                                BOLETO ACORDO - REGULARIZAÇÃO </p>
+                            
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </div>
+        <div class="content-1" style="font-size: 12pt; font-weight: 600;">
+            <div style="display: block; unicode-bidi: isolate;">
+                <p>Prezado cliente <span style="color: #2cb8cd;">{NOME}</span></p>
+            </div>
+
+            <p style="line-height: 25px;">Nós da <span style="color: #2cb8cd;">JEQUITI COSMÉTICOS</span> entendemos que o sucesso é advindo de <strong>SUPERAÇÃO</strong> e por isso,
+                acreditamos o quanto você pode voltar a empreender e continuar fomentando suas expectativas diante das realizações 
+                que pode promover com seu sucesso.
+            </p>
+            <p>
+                Segue boleto referente ao acordo realizado para regularização conforme condições estabelecidas na negociação. Importante ressaltar que o não pagamento poderá implicar 
+                na pontuação de seu <strong>SCORE</strong> junto ao <strong>SERASA</strong>. Após o pagamento, você já poderá solicitar a reanálise* para darmos novamente o primeiro passo. 
+            </p>
+            <p>
+                Caso a negociação tenha sido parcelada, você receberá os demais boletos após o pagamento deste adotando as datas subsequentes ao vencimento deste. Para envio do comprovante 
+                você poderá enviar para o mesmo canal que recebeu este boleto.
+            </p>
+
+            <h6>(reanálise sujeita aprovação ou negativa de crédito de acordo o perfil e demais fatores verificados)</h6>
+
+        </div>
+        <p style="font-size: 12px;">Cód. Barras {COD_BARRA}</p>
+        <table class="doc" style="font-size: 12px; text-align: center; width: 100%;">
+            <thead>
+                <th class="cabecalho">Data do documento</th>
+                <th class="cabecalho">N. Documento</th>
+                <th class="cabecalho">Espécie</th>
+                <th class="cabecalho">Aceite</th>
+                <th class="cabecalho">Data Processamento</th>
+                <th class="cabecalho">Nosso Número</th>
+                <th class="cabecalho">Valor</th>
+            </thead>
+            <tbody>
+                <td class="corpotd">{DATA}</td>
+                <td class="corpotd">{NDOC}</td>
+                <td class="corpotd">{ESP}</td>
+                <td class="corpotd">{ACEITE}</td>
+                <td class="corpotd">{DATAPROC}</td>
+                <td class="corpotd">{NNUM}</td>
+                <td class="corpotd">{NVALOR}</td>
+            </tbody>
+        </table>
+        <br>
+        <div>
+            <table style="width:100%;margin:0;display:inline-table;">
+                <tbody>
+                    <tr>
+                        <td>
+                            <div style="background-color: rgb(202, 202, 202);">
+                                <p style="width: 530px; padding: 5px">Este recibo somente terá validade com a
+                                    autenticação mecânica ou acompanhado do recebido de pagamento emitido pelo banco.
+                                    Recebimento através do cheque n.
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    do banco Esta quitação só terá validade após o pagamento do cheque pelo banco
+                                    pagador.</p>
+                            </div>
+                        </td>
+                        <td>
+                            <div style="margin-left: 25px;">
+                                <fieldset style="width: 400px; height: 60px;">
+                                    <legend>Autenticação Mecanica - <strong>Recibo Pagador</strong></legend>
+
+                                </fieldset>
+                            </div>
+
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <table>
+                <tr>
+                    <td><img src="https://lh3.googleusercontent.com/pw/AP1GczPN4CYjjtImkzpygngK2Jwk3nitUgvX0qBi-Ppo88fkgmhEScMLp3hm7EBjmWp86ybYuS-wIM_OgmVaPD20L0kZH4VQKZuTbng8JpE8CklIHpq6XFfOPT5zTnACo-Rdg9BFHQIF8Cw-ZdemfT5tVhvu=w112-h91-s-no-gm?authuser=0"
+                         width="30px" alt="logo-sala"></td>
+                    <td style="padding-left: 5px;">
+                        <h6><span style="color: #d7ae5c;">SALA SOLUTIONS</span> - EMPRESA REPRESENTANTE JEQUITI</h6>
+                    </td>
+                </tr>
+            </table>
+            
+            <br>
+            <hr size="1" style="border:1px dashed black;">
+        </div>
+    </div>
+</body>
+
+</html>
